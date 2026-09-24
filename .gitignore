@@ -1,0 +1,23 @@
+# IDE and local settings
+.vs/
+.vscode/
+*.user
+*.suo
+
+# .NET build output
+**/bin/
+**/obj/
+
+# Node and Angular build output
+**/node_modules/
+**/.angular/
+**/dist/
+**/coverage/
+
+# Local environment files
+**/.env
+**/.env.*
+!**/.env.example
+
+# Preserved metadata from the previous nested frontend repository
+.git.online-course-ui-backup/
